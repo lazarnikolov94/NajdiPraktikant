@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="20dp"
+    android:background="@drawable/card" android:id="@+id/rlCardBase" android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/llButtons"
+        android:layout_toStartOf="@+id/llButtons">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="..."
+            android:id="@+id/tvPozicijaTip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/llButtons"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ibVidiMojOglas"
+            android:src="@drawable/ic_action_work_off"/>
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ibIzbrisiMojOglas"
+            android:src="@drawable/ic_action_work_on"/>
+
+    </LinearLayout>
+</RelativeLayout>

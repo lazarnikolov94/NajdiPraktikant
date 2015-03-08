@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".LoginActivity" android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_marginTop="123dp"
+        android:hint="Емаил адреса"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:hint="Лозинка"
+        android:layout_below="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_alignEnd="@+id/etEmail" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Најава"
+        android:id="@+id/bLogin"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрација"
+        android:id="@+id/bRegister"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:hint="Вашето име"
+        android:id="@+id/etUserName"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/etUserInfo"
+        android:hint="Вашата локација/факултет"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:hint="Вашата професија/интерес"
+        android:id="@+id/etUserProfession"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/etUserBio"
+        android:hint="Кратка биографија"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="najdipraktikant.teamvoid.com" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|touchscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.APP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:configChanges="keyboardHidden|orientation|touchscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/register"
+            android:configChanges="keyboardHidden|orientation|touchscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CompanyDashboard"
+            android:label="@string/title_activity_company_dashboard"
+            android:configChanges="keyboardHidden|orientation|touchscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.DASHBOARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OglasPreview"
+            android:label="@string/title_activity_company_dashboard"
+            android:configChanges="keyboardHidden|orientation|touchscreen"
+            android:parentActivityName=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.OGLASPREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

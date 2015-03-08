@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Најди Практикант</string>
+
+    <string name="title_section1">Огласи</string>
+    <string name="title_section2">Профил</string>
+    <string name="title_section3">Одјава</string>
+
+
+    <string name="title_company_section1">Нов Оглас</string>
+    <string name="title_company_section2">Мои Огласи</string>
+    <string name="title_company_section3">Профил</string>
+    <string name="title_company_section4">Одјава</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="register">Регистрација</string>
+    <string-array name="gradovi_mk">
+        <item>Битола</item>
+        <item>Велес</item>
+        <item>Гевгелија</item>
+        <item>Гостивар</item>
+        <item>Кавадарци</item>
+        <item>Неготино</item>
+        <item>Охрид</item>
+        <item>Прилеп</item>
+        <item>Скопје</item>
+        <item>Штип</item>
+    </string-array>
+    <string name="gradovi_prompt">Избери град</string>
+
+    <string-array name="profesii">
+        <item>Android Developer</item>
+        <item>Млекар</item>
+        <item>Доктор</item>
+        <item>Пациент</item>
+        <item>Комшија</item>
+        <item>Малер</item>
+        <item>Ангел чувар</item>
+        <item>Ѓавол чувар</item>
+        <item>Боем</item>
+        <item>Професионален професионалец</item>
+        <item>Аматерски професионалец</item>
+    </string-array>
+    <string name="profesii_prompt">Избери професија</string>
+
+    <string-array name="kompanii">
+        <item>Microsoft</item>
+        <item>Apple</item>
+        <item>Google</item>
+        <item>Amazon</item>
+        <item>Yahoo</item>
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>LinkedIn</item>
+        <item>MySpace</item>
+        <item>Spotify</item>
+    </string-array>
+    <string name="kompanii_prompt">Избери компанија</string>
+
+    <string name="title_activity_company_dashboard">Мои Огласи</string>
+
+</resources>
